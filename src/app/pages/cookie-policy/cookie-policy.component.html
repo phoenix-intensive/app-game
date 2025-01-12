@@ -1,0 +1,30 @@
+<div *ngIf="showCookieBanner" class="cookie-banner">
+  <div class="cookie-content">
+    <div class="cookie-header">
+      <h2>Cookie preferences</h2>
+    </div>
+    <div class="cookie-text">
+      <p>In order to properly provide services, as well as for statistical and advertising purposes, the website uses
+        information stored on users' end devices (cookies). If you have allowed cookies to be stored in your browser
+        settings, they will be stored on your end device.</p>
+      <p>Cookie Settings are available on every page of our website, where the user can at any time view the list of
+        other companies that use cookies on this website and change their settings for these files. Detailed information
+        about how we use your personal data and your rights can be found in our <a routerLink="/privacy-policy">Privacy
+          Policy</a>.</p>
+    </div>
+    <div class="cookie-buttons">
+      <button (click)="acceptCookies()">Accept</button>
+      <button (click)="declineCookies()">Decline</button>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
